@@ -1,5 +1,4 @@
 <ScrollView
-    android:background="@drawable/images"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -145,6 +144,17 @@
                 android:onClick="limpiar"
                 android:layout_weight="1"
                 android:background="#ff43b1ff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/registro"
+                android:id="@+id/btn_consulta"
+                android:onClick="buscar"
+                android:layout_weight="1"
+                android:background="#78909C"
+                android:textColor="#FFFFFF" />
+
 
 
         </LinearLayout>

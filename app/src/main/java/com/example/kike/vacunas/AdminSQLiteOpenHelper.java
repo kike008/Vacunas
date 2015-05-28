@@ -25,6 +25,5 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("drop table if exists vacunacion");
         db.execSQL("create table vacunacion (id_A integer primary key unique, comunidad text, mvz text,  telefono integer, perros integer, gatos integer) ");
 
-
     }
 }

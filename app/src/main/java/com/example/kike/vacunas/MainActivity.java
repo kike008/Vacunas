@@ -1,6 +1,7 @@
 package com.example.kike.vacunas;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.ActionBarActivity;
@@ -148,6 +149,11 @@ public class MainActivity extends ActionBarActivity {
         gatos.setText("");
 
         id_A.requestFocus();
+    }
+
+    public void buscar (View v){
+        Intent a = new Intent(this, Reporte.class);
+        startActivity(a);
     }
 
 
